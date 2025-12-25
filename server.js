@@ -11,7 +11,17 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const DB_FILE = path.resolve(process.cwd(), 'messages.json');
 
-app.use(cors());
+// CORS configuration - allow requests from frontend
+app.use(cors({
+  origin: [
+    process.env.FRONTEND_URL,
+    'http://localhost:5173',
+    'http://localhost:3000',
+    /\.vercel\.app$/,
+    /\.netlify\.app$/,
+  ].filter(Boolean),
+  credentials: true
+}));
 app.use(express.json());
 
 // --- DATA ---

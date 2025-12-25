@@ -1,0 +1,18 @@
+# Render configuration for backend deployment
+services:
+  - type: web
+    name: hasnain-sharif-portfolio-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      # Add these in Render dashboard after deployment:
+      # EMAIL_USER=your-email@gmail.com
+      # EMAIL_PASS=your-gmail-app-password
+      # FRONTEND_URL=https://your-frontend-url.vercel.app
+
