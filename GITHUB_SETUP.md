@@ -23,7 +23,7 @@ git commit -m "Initial commit: Portfolio website with contact form"
 ### Step 4: Create GitHub Repository
 
 1. Go to: https://github.com/new
-2. Repository name: `gevsolution-portfolio` (or any name you like)
+2. Repository name: `devolution-portfolio` (or any name you like)
 3. Description: "Portfolio website with React, TypeScript, and Express backend"
 4. Choose: **Public** or **Private**
 5. **DO NOT** check "Initialize with README" (we already have files)
@@ -35,7 +35,7 @@ After creating the repo, GitHub will show you commands. Use these:
 
 ```bash
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/gevsolution-portfolio.git
+git remote add origin https://github.com/YOUR_USERNAME/devolution-portfolio.git
 git push -u origin main
 ```
 

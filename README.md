@@ -1,4 +1,4 @@
-# GEVSolution Portfolio
+# Devolution Portfolio
 
 A modern, responsive portfolio website built with React, TypeScript, and Express.
 
@@ -20,8 +20,8 @@ A modern, responsive portfolio website built with React, TypeScript, and Express
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/gevsolution-portfolio.git
-cd gevsolution-portfolio
+git clone https://github.com/YOUR_USERNAME/devolution-portfolio.git
+cd devolution-portfolio
 ```
 
 2. Install dependencies:
@@ -67,7 +67,7 @@ Builds the project for production in the `dist` folder.
 ## 📁 Project Structure
 
 ```
-gevsolution/
+devolution/
 ├── components/          # React components
 │   ├── About.tsx
 │   ├── Contact.tsx
@@ -135,7 +135,7 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-Hasnain Sharif - GEVSolution
+Hasnain Sharif - Devolution
 
 ## 🙏 Acknowledgments
 

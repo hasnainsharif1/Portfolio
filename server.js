@@ -23,7 +23,7 @@ const PROJECTS = [
     fullDescription: 'The Skill Exchange Platform addresses the need for collaborative learning within university campuses. It allows students to list skills they can teach (e.g., Guitar, Coding) and skills they want to learn. The system uses a credit-based economy where teaching earns credits used to book sessions.',
     technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io', 'Express'],
     imageUrl: 'https://picsum.photos/seed/fyp/800/600',
-    repoLink: 'https://github.com/gevsolution/skill-exchange',
+    repoLink: 'https://github.com/devolution/skill-exchange',
     role: 'Lead Full-Stack Developer',
     features: [
       'Real-time chat using Socket.io',
@@ -118,7 +118,7 @@ async function saveMessageToJSON(data) {
 
 // Health check
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'GEVSolution Backend is running' });
+  res.json({ status: 'ok', message: 'Devolution Backend is running' });
 });
 
 // Get Projects
@@ -220,7 +220,7 @@ You can reply directly to this email to respond to ${name}.
 // Check email configuration on startup
 const emailConfigured = !!(process.env.EMAIL_USER && process.env.EMAIL_PASS);
 console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-console.log('🚀 GEVSolution Backend Server');
+console.log('🚀 Devolution Backend Server');
 console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 console.log(`📍 Server: http://localhost:${PORT}`);
 console.log(`💾 Messages saved to: ${DB_FILE}`);

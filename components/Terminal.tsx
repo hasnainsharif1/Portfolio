@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const Terminal: React.FC = () => {
   const [text, setText] = useState('');
-  const fullText = `> Initializing GEVSolution core...\n> Loading modules: React, Node, AI...\n> Status: ONLINE\n> Welcome, User.`;
+  const fullText = `> Initializing Devolution core...\n> Loading modules: React, Node, AI...\n> Status: ONLINE\n> Welcome, User.`;
   
   useEffect(() => {
     let index = 0;
@@ -23,7 +23,7 @@ const Terminal: React.FC = () => {
         <div className="w-3 h-3 rounded-full bg-red-500"></div>
         <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
         <div className="w-3 h-3 rounded-full bg-green-500"></div>
-        <span className="ml-2 text-slate-400 text-xs">bash — gevsolution-cli</span>
+        <span className="ml-2 text-slate-400 text-xs">bash — devolution-cli</span>
       </div>
       <div className="p-4 h-32 md:h-40 overflow-hidden relative">
         <pre className="text-neon-green whitespace-pre-wrap leading-relaxed">

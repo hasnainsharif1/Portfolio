@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
                 <TerminalIcon className="h-6 w-6 text-neon-blue" />
             </div>
             <span className="font-mono font-bold text-xl tracking-tighter text-white">
-              GEV<span className="text-neon-blue">Solution</span>
+              Devo<span className="text-neon-blue">lution</span>
             </span>
           </div>
           
