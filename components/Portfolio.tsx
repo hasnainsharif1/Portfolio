@@ -12,8 +12,11 @@ const Portfolio: React.FC = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
+        // In development, use proxy (empty string = relative URL uses vite proxy)
+        // In production, use full URL from environment variable
         const apiUrl = import.meta.env.VITE_API_URL || '';
-        const response = await fetch(`${apiUrl}/api/projects`);
+        const apiEndpoint = apiUrl ? `${apiUrl}/api/projects` : '/api/projects';
+        const response = await fetch(apiEndpoint);
         if (!response.ok) {
           throw new Error('Failed to fetch projects');
         }
