@@ -1,4 +1,4 @@
-# Devolution Portfolio
+# Hasnain Sharif Portfolio
 
 A modern, responsive portfolio website built with React, TypeScript, and Express.
 
@@ -20,8 +20,8 @@ A modern, responsive portfolio website built with React, TypeScript, and Express
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/devolution-portfolio.git
-cd devolution-portfolio
+git clone https://github.com/YOUR_USERNAME/hasnain-sharif-portfolio.git
+cd hasnain-sharif-portfolio
 ```
 
 2. Install dependencies:
@@ -67,7 +67,7 @@ Builds the project for production in the `dist` folder.
 ## 📁 Project Structure
 
 ```
-devolution/
+hasnain-sharif-portfolio/
 ├── components/          # React components
 │   ├── About.tsx
 │   ├── Contact.tsx
@@ -135,7 +135,7 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-Hasnain Sharif - Devolution
+Hasnain Sharif
 
 ## 🙏 Acknowledgments
 

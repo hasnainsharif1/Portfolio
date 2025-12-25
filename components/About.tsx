@@ -48,7 +48,7 @@ const About: React.FC = () => {
               Engineering Digital Experiences for over <span className="text-neon-blue">5 Years</span>
             </h3>
             <p>
-              Hello! I'm the lead engineer at Devolution. I have a passion for creating things that live on the internet, 
+              Hello! I'm Hasnain Sharif, a Full-Stack Engineer. I have a passion for creating things that live on the internet, 
               from simple websites to complex cloud-based software architectures.
             </p>
             <p>

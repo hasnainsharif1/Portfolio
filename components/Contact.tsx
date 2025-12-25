@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
                <h3 className="text-white font-bold text-xl">Contact Info</h3>
                <div className="flex items-center gap-3 text-slate-400">
                   <Mail className="w-5 h-5 text-neon-blue" />
-                  <a href="mailto:hello@devolution.com" className="hover:text-white transition-colors">hello@devolution.com</a>
+                  <a href="mailto:hasnainsharif713@gmail.com" className="hover:text-white transition-colors">hasnainsharif713@gmail.com</a>
                </div>
                <div className="flex items-center gap-3 text-slate-400">
                   <MapPin className="w-5 h-5 text-neon-blue" />
